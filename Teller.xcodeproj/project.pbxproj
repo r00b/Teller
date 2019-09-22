@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543AB02A2337DF430021BBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB0292337DF430021BBDD /* AppDelegate.swift */; };
+		543AB02C2337DF430021BBDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB02B2337DF430021BBDD /* SceneDelegate.swift */; };
+		543AB02F2337DF430021BBDD /* Teller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 543AB02D2337DF430021BBDD /* Teller.xcdatamodeld */; };
+		543AB0312337DF430021BBDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB0302337DF430021BBDD /* ContentView.swift */; };
+		543AB0332337DF450021BBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543AB0322337DF450021BBDD /* Assets.xcassets */; };
+		543AB0362337DF450021BBDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543AB0352337DF450021BBDD /* Preview Assets.xcassets */; };
+		543AB0392337DF450021BBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543AB0372337DF450021BBDD /* LaunchScreen.storyboard */; };
+		543AB0442337DF450021BBDD /* TellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB0432337DF450021BBDD /* TellerTests.swift */; };
+		543AB04F2337DF450021BBDD /* TellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB04E2337DF450021BBDD /* TellerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543AB0402337DF450021BBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543AB01E2337DF430021BBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543AB0252337DF430021BBDD;
+			remoteInfo = Teller;
+		};
+		543AB04B2337DF450021BBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543AB01E2337DF430021BBDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543AB0252337DF430021BBDD;
+			remoteInfo = Teller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543AB0262337DF430021BBDD /* Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543AB0292337DF430021BBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		543AB02B2337DF430021BBDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		543AB02E2337DF430021BBDD /* Teller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teller.xcdatamodel; sourceTree = "<group>"; };
+		543AB0302337DF430021BBDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		543AB0322337DF450021BBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543AB0352337DF450021BBDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543AB0382337DF450021BBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		543AB03A2337DF450021BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543AB03F2337DF450021BBDD /* TellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543AB0432337DF450021BBDD /* TellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellerTests.swift; sourceTree = "<group>"; };
+		543AB0452337DF450021BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543AB04A2337DF450021BBDD /* TellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543AB04E2337DF450021BBDD /* TellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellerUITests.swift; sourceTree = "<group>"; };
+		543AB0502337DF450021BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543AB0232337DF430021BBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB03C2337DF450021BBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB0472337DF450021BBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543AB01D2337DF430021BBDD = {
+			isa = PBXGroup;
+			children = (
+				543AB0282337DF430021BBDD /* Teller */,
+				543AB0422337DF450021BBDD /* TellerTests */,
+				543AB04D2337DF450021BBDD /* TellerUITests */,
+				543AB0272337DF430021BBDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543AB0272337DF430021BBDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543AB0262337DF430021BBDD /* Teller.app */,
+				543AB03F2337DF450021BBDD /* TellerTests.xctest */,
+				543AB04A2337DF450021BBDD /* TellerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543AB0282337DF430021BBDD /* Teller */ = {
+			isa = PBXGroup;
+			children = (
+				543AB0292337DF430021BBDD /* AppDelegate.swift */,
+				543AB02B2337DF430021BBDD /* SceneDelegate.swift */,
+				543AB0302337DF430021BBDD /* ContentView.swift */,
+				543AB0322337DF450021BBDD /* Assets.xcassets */,
+				543AB0372337DF450021BBDD /* LaunchScreen.storyboard */,
+				543AB03A2337DF450021BBDD /* Info.plist */,
+				543AB02D2337DF430021BBDD /* Teller.xcdatamodeld */,
+				543AB0342337DF450021BBDD /* Preview Content */,
+			);
+			path = Teller;
+			sourceTree = "<group>";
+		};
+		543AB0342337DF450021BBDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				543AB0352337DF450021BBDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543AB0422337DF450021BBDD /* TellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				543AB0432337DF450021BBDD /* TellerTests.swift */,
+				543AB0452337DF450021BBDD /* Info.plist */,
+			);
+			path = TellerTests;
+			sourceTree = "<group>";
+		};
+		543AB04D2337DF450021BBDD /* TellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				543AB04E2337DF450021BBDD /* TellerUITests.swift */,
+				543AB0502337DF450021BBDD /* Info.plist */,
+			);
+			path = TellerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543AB0252337DF430021BBDD /* Teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AB0532337DF450021BBDD /* Build configuration list for PBXNativeTarget "Teller" */;
+			buildPhases = (
+				543AB0222337DF430021BBDD /* Sources */,
+				543AB0232337DF430021BBDD /* Frameworks */,
+				543AB0242337DF430021BBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teller;
+			productName = Teller;
+			productReference = 543AB0262337DF430021BBDD /* Teller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543AB03E2337DF450021BBDD /* TellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AB0562337DF450021BBDD /* Build configuration list for PBXNativeTarget "TellerTests" */;
+			buildPhases = (
+				543AB03B2337DF450021BBDD /* Sources */,
+				543AB03C2337DF450021BBDD /* Frameworks */,
+				543AB03D2337DF450021BBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543AB0412337DF450021BBDD /* PBXTargetDependency */,
+			);
+			name = TellerTests;
+			productName = TellerTests;
+			productReference = 543AB03F2337DF450021BBDD /* TellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		543AB0492337DF450021BBDD /* TellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AB0592337DF450021BBDD /* Build configuration list for PBXNativeTarget "TellerUITests" */;
+			buildPhases = (
+				543AB0462337DF450021BBDD /* Sources */,
+				543AB0472337DF450021BBDD /* Frameworks */,
+				543AB0482337DF450021BBDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543AB04C2337DF450021BBDD /* PBXTargetDependency */,
+			);
+			name = TellerUITests;
+			productName = TellerUITests;
+			productReference = 543AB04A2337DF450021BBDD /* TellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543AB01E2337DF430021BBDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = rhs;
+				TargetAttributes = {
+					543AB0252337DF430021BBDD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					543AB03E2337DF450021BBDD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 543AB0252337DF430021BBDD;
+					};
+					543AB0492337DF450021BBDD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 543AB0252337DF430021BBDD;
+					};
+				};
+			};
+			buildConfigurationList = 543AB0212337DF430021BBDD /* Build configuration list for PBXProject "Teller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543AB01D2337DF430021BBDD;
+			productRefGroup = 543AB0272337DF430021BBDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543AB0252337DF430021BBDD /* Teller */,
+				543AB03E2337DF450021BBDD /* TellerTests */,
+				543AB0492337DF450021BBDD /* TellerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543AB0242337DF430021BBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543AB0392337DF450021BBDD /* LaunchScreen.storyboard in Resources */,
+				543AB0362337DF450021BBDD /* Preview Assets.xcassets in Resources */,
+				543AB0332337DF450021BBDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB03D2337DF450021BBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB0482337DF450021BBDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543AB0222337DF430021BBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543AB02A2337DF430021BBDD /* AppDelegate.swift in Sources */,
+				543AB02F2337DF430021BBDD /* Teller.xcdatamodeld in Sources */,
+				543AB0312337DF430021BBDD /* ContentView.swift in Sources */,
+				543AB02C2337DF430021BBDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB03B2337DF450021BBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543AB0442337DF450021BBDD /* TellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543AB0462337DF450021BBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543AB04F2337DF450021BBDD /* TellerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543AB0412337DF450021BBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543AB0252337DF430021BBDD /* Teller */;
+			targetProxy = 543AB0402337DF450021BBDD /* PBXContainerItemProxy */;
+		};
+		543AB04C2337DF450021BBDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543AB0252337DF430021BBDD /* Teller */;
+			targetProxy = 543AB04B2337DF450021BBDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		543AB0372337DF450021BBDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543AB0382337DF450021BBDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		543AB0512337DF450021BBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		543AB0522337DF450021BBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543AB0542337DF450021BBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teller/Preview Content\"";
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Teller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.Teller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543AB0552337DF450021BBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teller/Preview Content\"";
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Teller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.Teller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		543AB0572337DF450021BBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				INFOPLIST_FILE = TellerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.TellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teller.app/Teller";
+			};
+			name = Debug;
+		};
+		543AB0582337DF450021BBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				INFOPLIST_FILE = TellerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.TellerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teller.app/Teller";
+			};
+			name = Release;
+		};
+		543AB05A2337DF450021BBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				INFOPLIST_FILE = TellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.TellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teller;
+			};
+			name = Debug;
+		};
+		543AB05B2337DF450021BBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZM2TS3MD4;
+				INFOPLIST_FILE = TellerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhs.iOS.TellerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543AB0212337DF430021BBDD /* Build configuration list for PBXProject "Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543AB0512337DF450021BBDD /* Debug */,
+				543AB0522337DF450021BBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AB0532337DF450021BBDD /* Build configuration list for PBXNativeTarget "Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543AB0542337DF450021BBDD /* Debug */,
+				543AB0552337DF450021BBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AB0562337DF450021BBDD /* Build configuration list for PBXNativeTarget "TellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543AB0572337DF450021BBDD /* Debug */,
+				543AB0582337DF450021BBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AB0592337DF450021BBDD /* Build configuration list for PBXNativeTarget "TellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543AB05A2337DF450021BBDD /* Debug */,
+				543AB05B2337DF450021BBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		543AB02D2337DF430021BBDD /* Teller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				543AB02E2337DF430021BBDD /* Teller.xcdatamodel */,
+			);
+			currentVersion = 543AB02E2337DF430021BBDD /* Teller.xcdatamodel */;
+			path = Teller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 543AB01E2337DF430021BBDD /* Project object */;
+}
