@@ -1,0 +1,26 @@
+[
+    {
+        "id": "4ef",
+        "name": "Primary Checking",
+        "balance": 3024.13,
+        "institution": "Charles Schwab"
+    },
+    {
+        "id": "g94",
+        "name": "Primary Savings",
+        "balance": 34995.12,
+        "institution": "Ally"
+    },
+    {
+        "id": "f01",
+        "name": "Checking",
+        "balance": 342.12,
+        "institution": "C&F Bank"
+    },
+    {
+        "id": "goh5",
+        "name": "Emergency Fund",
+        "balance": 5000.00,
+        "institution": "Ally Bank"
+    }
+]

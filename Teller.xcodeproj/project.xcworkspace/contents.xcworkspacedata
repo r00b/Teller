@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Teller.xcodeproj">
+      location = "group:/Users/robe9045/Developer/Repositories/Teller/Teller/Balances/Account.swift">
+   </FileRef>
+   <FileRef
+      location = "absolute:/Users/robe9045/Developer/Repositories/Teller/Teller/BalanceRow.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

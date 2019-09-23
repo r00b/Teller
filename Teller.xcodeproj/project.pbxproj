@@ -16,6 +16,11 @@
 		543AB0392337DF450021BBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543AB0372337DF450021BBDD /* LaunchScreen.storyboard */; };
 		543AB0442337DF450021BBDD /* TellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB0432337DF450021BBDD /* TellerTests.swift */; };
 		543AB04F2337DF450021BBDD /* TellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AB04E2337DF450021BBDD /* TellerUITests.swift */; };
+		54C0618B2339033000C7C761 /* accountData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54C0618A2339033000C7C761 /* accountData.json */; };
+		54C0618E2339272300C7C761 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0618D2339272300C7C761 /* Data.swift */; };
+		54C061902339434900C7C761 /* BalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0618F2339434900C7C761 /* BalancesView.swift */; };
+		54CC7D0423380C9B00CC7624 /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D0323380C9B00CC7624 /* AccountRow.swift */; };
+		54CC7D072338150200CC7624 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D062338150200CC7624 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		543AB04A2337DF450021BBDD /* TellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		543AB04E2337DF450021BBDD /* TellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellerUITests.swift; sourceTree = "<group>"; };
 		543AB0502337DF450021BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C0618A2339033000C7C761 /* accountData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = accountData.json; sourceTree = "<group>"; };
+		54C0618D2339272300C7C761 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		54C0618F2339434900C7C761 /* BalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesView.swift; sourceTree = "<group>"; };
+		54CC7D0323380C9B00CC7624 /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountRow.swift; path = /Users/robe9045/Developer/Repositories/Teller/Teller/AccountRow.swift; sourceTree = "<absolute>"; };
+		54CC7D062338150200CC7624 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Account.swift; path = /Users/robe9045/Developer/Repositories/Teller/Teller/Balances/Account.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,12 @@
 		543AB0282337DF430021BBDD /* Teller */ = {
 			isa = PBXGroup;
 			children = (
+				54C06189233902EF00C7C761 /* Resources */,
 				543AB0292337DF430021BBDD /* AppDelegate.swift */,
+				54CC7D0523380D3200CC7624 /* Balances */,
 				543AB02B2337DF430021BBDD /* SceneDelegate.swift */,
 				543AB0302337DF430021BBDD /* ContentView.swift */,
+				54C0618C2339270F00C7C761 /* Models */,
 				543AB0322337DF450021BBDD /* Assets.xcassets */,
 				543AB0372337DF450021BBDD /* LaunchScreen.storyboard */,
 				543AB03A2337DF450021BBDD /* Info.plist */,
@@ -137,6 +150,32 @@
 				543AB0502337DF450021BBDD /* Info.plist */,
 			);
 			path = TellerUITests;
+			sourceTree = "<group>";
+		};
+		54C06189233902EF00C7C761 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54C0618A2339033000C7C761 /* accountData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54C0618C2339270F00C7C761 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54CC7D062338150200CC7624 /* Account.swift */,
+				54C0618D2339272300C7C761 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54CC7D0523380D3200CC7624 /* Balances */ = {
+			isa = PBXGroup;
+			children = (
+				54CC7D0323380C9B00CC7624 /* AccountRow.swift */,
+				54C0618F2339434900C7C761 /* BalancesView.swift */,
+			);
+			path = Balances;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +284,7 @@
 			files = (
 				543AB0392337DF450021BBDD /* LaunchScreen.storyboard in Resources */,
 				543AB0362337DF450021BBDD /* Preview Assets.xcassets in Resources */,
+				54C0618B2339033000C7C761 /* accountData.json in Resources */,
 				543AB0332337DF450021BBDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C0618E2339272300C7C761 /* Data.swift in Sources */,
+				54C061902339434900C7C761 /* BalancesView.swift in Sources */,
 				543AB02A2337DF430021BBDD /* AppDelegate.swift in Sources */,
 				543AB02F2337DF430021BBDD /* Teller.xcdatamodeld in Sources */,
 				543AB0312337DF430021BBDD /* ContentView.swift in Sources */,
 				543AB02C2337DF430021BBDD /* SceneDelegate.swift in Sources */,
+				54CC7D0423380C9B00CC7624 /* AccountRow.swift in Sources */,
+				54CC7D072338150200CC7624 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
