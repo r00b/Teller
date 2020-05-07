@@ -9,6 +9,15 @@
 import SwiftUI
 
 struct BalancesView: View {
+    
+    var groups: [AccountGroup]
+    
+    init() {
+        let banks = AccountGroup(sectionTitle: "Banking", accounts: accountData)
+        let investments = AccountGroup(sectionTitle: "Investments", accounts: investData)
+        self.groups = [banks, investments]
+    }
+    
     var body: some View {
         VStack() {
             VStack(alignment: .leading) {
@@ -18,10 +27,15 @@ struct BalancesView: View {
             }
             .background(Color.red)
             Divider()
-            List(accountData) { account in
-                AccountRow(account: account)
-            }
-            .navigationBarTitle(Text("Accounts"))
+            List {
+                ForEach(groups) { group in
+                    Section(header: Text(group.sectionTitle)) {
+                        ForEach(group.accounts) { account in
+                            AccountRow(account: account)
+                        }
+                    }
+                }
+            }.listStyle(GroupedListStyle())
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
         .background(Color.blue)

@@ -1,0 +1,21 @@
+[
+    {
+        "id": "09df",
+        "name": "Roth IRA",
+        "balance": 1233.44,
+        "institution": "Charles Schwab"
+    },
+    {
+        "id": "q3ifuv",
+        "name": "Esri 401(k)",
+        "balance": 12315.32,
+        "institution": "Fidelity"
+    },
+    {
+        "id": "q34fuhi",
+        "name": "Brokerage",
+        "balance": 342234.12,
+        "institution": "Vanguard"
+    }
+]
+
